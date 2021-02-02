@@ -1,5 +1,12 @@
 
 
+/**
+ * 
+ |<div class="form-group col-md-3">
+ |    <label for="inputcep">Cep</label>
+ |    <input type="text" class="form-control" id="input_cep" name="endereco[cep]" maxlength="9" onblur="pesquisacep(this.value);" value="">
+ |</div> 
+*/
 
 function limpa_formulário_cep() {
     //Limpa valores do formulário de cep.
